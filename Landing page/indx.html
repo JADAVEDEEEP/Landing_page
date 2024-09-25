@@ -7,70 +7,112 @@
 </head>
 <body>
       <!--Bootstrap CDN-->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     
+   
 
        <!--Navigation Start-->
 
        <section class="Nav-section bg-light">
-        <div class="container p-2">
+        <div class="container p-1">
 
           <!-- Navbar Brand and Logo -->
 
-          <nav class="navbar navbar-expand-lg d-flex justify-content-between">   
-            <a class="navbar-brand text-dark fs-3 fw-bold " href="#">
+          <nav class="navbar navbar-expand-lg bg-light  ">   
+            <a class="navbar-brand fw-bold fs-4" href="#">
               <img src="Icon.png" alt="Nexcent Logo"> Nexcent
             </a>
       
             <!-- Centered Navigation -->
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link fw-bold mx-2" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold mx-2" href="#">Service</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold mx-2" href="#">Feature</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold mx-2" href="#">Product</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold mx-2" href="#">Testimonial</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold mx-2" href="#">FAQ</a>
-                  </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg mx-auto navbar-light bg-light">
+              <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold mx-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold mx-2" href="#">Service</a>
+                    </li>
+                   
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold mx-2">Feature</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold mx-2">Product</a>
+                    </li>
+                    </li>
+                    <li class="nav-item"></li>
+                      <a class="nav-link fw-bold mx-2">Testimonial</a>
+                    </li>
+                    </li>
+                    <li class="nav-item"></li>
+                      <a class="nav-link fw-bold mx-2">FAQ</a>
+                    </li>
+                    </li>
+                    <li class="nav-item mx-5"></li>
+                      <a class="nav-link text-success fw-bold mx-2">Login</a>
+                    </li>
+                    </li>
+                    
+                  </ul>
+                  <form class="d-flex">
+                    <button class="btn btn-success" type="submit">Sing up</button>
+                  </form>
+                </div>
               </div>
             </nav>
+            
+
+            <!-- <nav class="navbar navbar-expand-lg bg-light mx-auto fw-bold">
+              <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" aria-disabled="true">Feature</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" aria-disabled="true">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-2" aria-disabled="true">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active fs-6 fw-normal text-success p-4" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <button type="button" class="btn btn-success m-3">Sign Up</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav> -->
 
             <!-- Login and Sign Up Buttons -->
              
-            <div class="btn-item d-flex">
-              <ul class="navbar-nav flex-row">
-                <li class="nav-item">
-                  <a class="nav-link active fs-6 fw-normal text-success mr-5 p-4" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                  <button type="button" class="btn btn-success m-3">Sign Up</button>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+          
+
+
       </section>
     
     <!--Navigation Complete-->
@@ -80,14 +122,18 @@
     <section class="Lessons-section bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-md m-5 p-5">
-            <h1 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Lessons and insights</h1>
-            <h1 style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" class="text-success">from 8 years</h1>
-            <p class="text-seceondary">where to grow business as photographer:site or social media </p>
-            <button class="btn-item btn btn-success">Register</button>
+          <div class="col-md fs-3 p-5">
+            <h1>Lessons and insights</h1>
+            <div class="Lesson-class">
+              <h1 class="Lesson-module text-success f-3">from 8 years</h1>
+            </div>
+            <div class="lesson-class fs-6 d-inline">
+            <p>where to grow business as photographer:site or social media </p>
+          </div>
+            <button class="Lesson-class btn-item btn btn-success">Register</button>
           </div>
           <div class="col-md">
-            <img src="fax.png"  class="img-fluid m-5" alt="Responsive image" width="70%">
+            <img src="fax.png" class="img-fluid p-3" alt="Lessons" >
           </div>
     </section>
     <!--Second module Complete-->
@@ -96,22 +142,23 @@
 
      <section class="Client-section">
       <div class="container">
-        <div class="td-module fs-3 fw-normal p-3 d-flex justify-content-center">
-         <h2 style=" font-family:'Times New Roman', Times, serif;">Our Clients</h2>
+        <div class="client-side fs-3 fw-normal p-3 d-flex justify-content-center">
+         <h2>Our Clients</h2>
         </div>
-        <div class="td-module fs-6 fw-normal d-flex justify-content-center ">
-         <p class="text-muted"> We have been working with some Fortune 500+ clients</p>
+        <div class="Client-side fs-6 fw-normal d-flex justify-content-center ">
+         <p class="Client-side"> We have been working with some Fortune 500+ clients</p>
         </div>
-        <div class="td-module fs-6 fw-normal d-flex justify-content-center ">
-          <img src="Clients Logos.png" width="80%">
+        <div class="Client-side fs-6 fw-normal p-3 d-flex justify-content-center ">
+          <img src="Clients Logos.png" class="img-fluid" alt="Client">
          </div>
-         <div class="td-module fs-2 fw-normal p-3 d-flex justify-content-center ">
-          <h3 style="font-family:'Times New Roman', Times, serif">
-            Manage your entire community<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp  in a single system
-          </h3>
+         <div class="Client-side fs-2 fw-normal d-flex justify-content-center ">
+          <h3>Manage your entire community</h3>
          </div>
-        <div class="td-module  d-flex justify-content-center">
-        <p class="text-muted">Who is Nextcent suitable for?</p>
+         <div class="Client-side fs-2 fw-normal d-flex justify-content-center">
+          <h3>in a single system</h3>
+        </div>
+        <div class="Client-side d-flex justify-content-center text-muted">
+        <p>Who is Nextcent suitable for?</p>
         </div>
         </div>
         </section>
