@@ -6,6 +6,7 @@
     <title>Landing Page</title>
 </head>
 <body>
+  <link rel="stylesheet" href="styles.css">
       <!--Bootstrap CDN-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
@@ -16,7 +17,7 @@
        <!--Navigation Start-->
 
        <section class="Nav-section bg-light p-3 ">
-        <div class="container">
+        <div class="container ">
           <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
             <a class="navbar-brand fw-bold fs-4 d-flex align-items-center" href="#">
               <img src="Icon.png" alt="Nexcent Logo" class="me-2"> Nexcent
@@ -45,42 +46,39 @@
                   <a class="nav-link fw-bold mx-3">FAQ</a>
                 </li>
                 <a class="nav-link text-success fw-bold mx-5">Login</a>
-                <button type="button" class="btn btn-success btn-sm ">Sign Up</button>
+                <button type="button" class="btn btn-success  ">Sign Up</button>
               </ul>
             </div>
+            </nav>
             </div>
-          </nav>
-        </div>
-      </section>
-      
-
-            
-            <!-- Login and Sign Up Buttons -->
-             
-          
-
-
-      </section>
+            </section>
     
     <!--Navigation Complete-->
 
     <!--second Module-->
 
-    <section class="lessons-section bg-light ">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md">
-        <h1 class="mb-4">Lessons and Insights</h1>
-        <h2 class="text-success fw-bold mb-3">From 8 Years</h2>
-        <p class="fs-6">Where to grow business as a photographer: site or social media?</p>
-        <button class="btn btn-success btn-lg">Register</button>
+    <section class="lessons-section bg-light py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          
+        
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h1 class="mb-4">Lessons and Insights</h1>
+            <h2 class="text-success fw-bold mb-3">From 8 Years</h2>
+            <p class="fs-6">Where to grow business as a photographer: site or social media?</p>
+            <button type="button" class="btn btn-lg" style="background-color: #52b152; color: #fff; padding: 15px 30px; border-radius: 8px; font-size: 1.5rem; border: none;">
+              Regsiter
+            </button>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+            <img src="fax.png" class="img-fluid" alt="Lessons" style="max-height: 400px; width: auto;">
+          </div>
+    
+        </div>
       </div>
-      <div class="col-md-6 p-5">
-        <img src="fax.png" class="img-fluid" alt="Lessons">
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+    
 
     <!--Second module Complete-->
 
@@ -88,32 +86,19 @@
 
      <section class="Client-section">
       <div class="container">
-        <div class="client-side fs-3 fw-normal p-3 d-flex justify-content-center">
+        <div class="client-side fs-3 fw-normal p-5 d-flex justify-content-center">
          <h2>Our Clients</h2>
         </div>
         <div class="Client-side fs-6 fw-normal d-flex justify-content-center ">
          <p class="Client-side"> We have been working with some Fortune 500+ clients</p>
         </div>
-        <div class="Client-Section container p-3">
-          <div class="row row-cols-2 row-cols-md-6 text-center">
-            <div class="col p-2">
-              <img src="Logo1.png" class="img-fluid" alt="Client">
-            </div>
-            <div class="col p-2">
-              <img src="Logo2.png" class="img-fluid" alt="Client">
-            </div>
-            <div class="col p-2">
-              <img src="Logo3.png" class="img-fluid" alt="Client">
-            </div>
-            <div class="col p-2">
-              <img src="Logo4.png" class="img-fluid" alt="Client">
-            </div>
-            <div class="col p-2">
-              <img src="Logo5.png" class="img-fluid" alt="Client">
-            </div>
-            <div class="col p-2">
-              <img src="Logo6.png" class="img-fluid" alt="Client">
-            </div>
+        <div class="flex-wrap p-5 d-flex justify-content-around">
+          <img src="Logo1.png" class="img-fluid" alt="Client">
+          <img src="Logo2.png" class="img-fluid" alt="Client">
+          <img src="Logo3.png" class="img-fluid" alt="Client">
+          <img src="Logo4.png" class="img-fluid" alt="Client">
+          <img src="Logo5.png" class="img-fluid" alt="Client">
+          <img src="Logo6.png" class="img-fluid" alt="Client">
         </div>
       </div>  
       </div>
@@ -126,52 +111,55 @@
         <div class="Client-side d-flex  justify-content-center text-muted">
         <p>Who is Nextcent suitable for?</p>
         </div>
-          <div class="row text-center p-2">
-            <div class="col-md">
+        <div class="container p-5">
+          <div class="row">
+            <div class="col-sm-4 text-center">
               <img src="Member.png" class="img-fluid" alt="Client" >
               <h3>Membership</h3>
               <h3>Organization</h3>
-             <address> Our membership management <br>software provides full automation of <br> membership renewals and payments</address>
+             <p> Our membership management <br> software provides full automation of<br> membership renewals payments</p>
             </div>
-            <div class="col-md">
+            <div class="col-sm-4 text-center">
               <img src="National.png" class="img-fluid" alt="Client">
               <h3>National</h3>
               <h3>Associations</h3>
-              <p>Our membership management <br> software provides full automation of<br> membership renewals and <br> payments</p>
+              <p>Our membership management <br> software provides full automation of <br> membership renewals and <br> payments</p>
             </div>
-            <div class="col-md ">
+            <div class="col-sm-4 text-center">
               <img src="Clubs.png" class="img-fluid" alt="Client">
               <h3>Clubs And</h3>
               <h3>Groups</h3>
-              <p>Our membership management <br> sosftware provides full automation of<br> membership renewals and payments</p>
+              <p> Our membership management <br> software provides full automation of<br> membership renewals payments</p>
             </div>
           </div>
         </div>
-        
-      </div>
-
         </section>
+         
+    
 
-        
-     <!--Third module in complete-->
+
+
+     <!--Third module  complete-->
 
           <!--Fourth module-->
 
           <section class="Frame-section">
             <div class="container">
               <div class="row text-center">
-                <div class="col-md-6 p-2">
+                <div class="col-md-6 ">
                   <img src="Frame.png" class="img-fluid" alt="Frame">
                 </div>
-                <div class="col-md-6 p-5 p-5">
-                  <h1>The unseen of spending three </h1>
-                  <div class="Frame d-flex justify-content-start m-3">
-                    <h1>years at Pixelgrade</h1>
+                <div class="col-md-6 p-5 text-start">
+                  <h3>The unseen of spending three </h3>
+                  <div class="Frame d-flex justify-content-start ">
+                    <h3 class="text-start">years at Pixelgrade</h3>
                   </div>
                   <div>
-              <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam , tempus sem. Donec  .</blockquote>
+              <blockquote class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam , tempus sem. Donec  .</blockquote>
                 </div>
-                <button type="button" class="btn btn-success btn-lg d-flex justify-content-start m-4  ">Learn More</button>
+                <button type="button" class="btn btn-lg" style="background-color: #52b152; color: #fff; padding: 15px 30px; border-radius: 8px; font-size: 1.5rem; border: none;">
+                  Learn More
+                </button>
                 </div>
               </div>
             </div>
@@ -182,56 +170,55 @@
 
            <section class="local-section bg-light">
             <div class="container p-5">
-            <div class="row">
-              <div class="col-lg-6 p-5">
-                <h2>Helping a people</h2>
-              <div class="text-success">
-                <h2>business reinvent itself</h2>
-              </div>
-                <p>We reached here with our hard work and dedication</p>
-              </div>
-              <div class="col-md-6  p-5">
-                <div class="row row-cols-2">
-                  <div class="col p-2">
-                    <h4><img src="Iconf1.png" class="img-fluid" alt="local">2,245,341</h4>
-                    <p class="text.muted">Member</p>
+              <div class="row">
+                <div class="col-lg-6 col-md-12 p-5">
+                  <h2>Helping a people</h2>
+                  <div class="text-success">
+                    <h2>business reinvent itself</h2>
                   </div>
-                  <div class="col p-2">
-                    <h4><img src="Iconf2.png" class="img-fluid" alt="local">82,647</h4>
-                    <p class="text-muted">Event Bookings</p>
-                  </div>
-                  <div class="col p-2">
-                    <h4><img src="Iconf3.png" class="img-fluid" alt="local">46,328</h4>
-                    <p class="text-muted">Clubs</p>
-                  </div>
-                  <div class="col p-2">
-                    <h4><img src="Iconf4.png" class="img-fluid" alt="local">1,926,436</h4>
-                    <p class="text-muted ">payments</p>
-                  </div>
-                  
+                  <p>We reached here with our hard work and dedication</p>
                 </div>
-              
+                <div class="col-lg-6 col-md-12 p-3">
+                  <div class="row row-cols-2 text-center g-3">
+                    <div class="col">
+                      <h4><img src="Iconf1.png" class="img-fluid" alt="local"> 2,245,341</h4>
+                      <p class="text-muted">Members</p>
+                    </div>
+                    <div class="col">
+                      <h4><img src="Iconf2.png" class="img-fluid" alt="local"> 82,647</h4>
+                      <p class="text-muted">Event Bookings</p>
+                    </div>
+                    <div class="col">
+                      <h4><img src="Iconf3.png" class="img-fluid" alt="local"> 46,328</h4>
+                      <p class="text-muted">Clubs</p>
+                    </div>
+                    <div class="col">
+                      <h4><img src="Iconf4.png" class="img-fluid" alt="local"> 1,926,436</h4>
+                      <p class="text-muted">Payments</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
-          </div>
-        </div>
-           </section>
+          </section>
+          
+   <!--Fifth module complete-->
 
            <!--sixth module-->
 
            <section class="Footer-section ">
             <div class="container">
-            <div class="row row-cols-12 text-center">
-              <div class="col p-4">
-                <img src="pana6.png" class="img-fluid" alt="Footer">
+            <div class="row text-center">
+              <div class="col-md-6 col-sm-12 p-3">
+                <img src="pana6.png" alt="Footer">
               </div>
-              <div class="col-md-6 p-5" style="font-family:'Times New Roman', Times, serif">
-                <h2>How to design your site footer like </h2>
-                  <div class="Frame d-flex justify-content-center m-3">
-                    <h2>we did</h2>
+              <div class="col-md-6 col-sm-12 p-5 text-start">
+                <h4>How to design your site footer like </h4>
+                  <div class="Frame text-start">
+                    <h4>we did</h4>
                   </div>
                   <div>
-              <blockquote>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue Nam tempor, augue Nam tempor, augue , massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. ,</blockquote>
+              <blockquote class="text-start">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue Nam tempor, augue Nam tempor, augue , massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. ,</blockquote>
                 </div>
                 <button type="button" class="btn btn-success btn-lg ">Learn More</button>
                 </div>
@@ -243,49 +230,191 @@
             <!--Sixth module complete-->
 
             <!--Seventh module-->
-            <section class="Get-section bg-light">
+            <section class="Get-section bg-light p-5">
               <div class="container">
-                <div class="row text-center p-3">
-                  <div class="col-12 col-md-6">
-                    <img src="image 9.png" class="img-fluid" alt="Footer">
+                <div class="row">
+                  <div class="col-md-6 d-flex justify-content-center col-sm-12 p-5">
+                    <img src="image 9.png" alt="Footer" class="img-fluid">
                   </div>
-                  <div class="col-12 col-md-6">
+                  <div class="col-md-6 col-sm-12 text-start p-5">
                     <blockquote>
-                      Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. 
+                      Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
                     </blockquote>
-                    <p class="d-flex justify-content-start m-4 fw-bold text-success">Till Smith</p>
-                    <p class="text-muted d-flex justify-content-start m-4">British Dragon Boat Racing Association</p>
-                    <img src="Logo8.png" class="img-fluid" alt="Footer">
-                    <img src="Logo1.png" class="img-fluid" alt="Footer">
-                    <img src="Logo5.png" class="img-fluid" alt="Footer">
-                    <img src="Logo3.png" class="img-fluid" alt="Footer">
-                    <img src="Logo4.png" class="img-fluid" alt="Footer">
-                    <img src="Logo5.png" class="img-fluid" alt="Footer">
-                  </div>
-                  
+            
+                    <p class="text-start fw-bold text-success">Till Smith</p>
+                    <p class="text-muted">British Dragon Boat Racing Association</p>
+            
+                    <div class="d-flex flex-wrap align-items-center mb-3">
+                      <img src="Logo8.png" class="img-fluid me-2" alt="Footer" style="max-width: 80px;">
+                      <img src="Logo1.png" class="img-fluid me-2" alt="Footer" style="max-width: 80px;">
+                      <img src="Logo5.png" class="img-fluid me-2" alt="Footer" style="max-width: 80px;">
+                      <img src="Logo3.png" class="img-fluid me-2" alt="Footer" style="max-width: 80px;">
+                      <img src="Logo4.png" class="img-fluid me-2" alt="Footer" style="max-width: 80px;">
+                      <img src="Logo5.png" class="img-fluid me-2" alt="Footer" style="max-width: 80px;">
+                    </div>
+                    
+                    <p class="text-success">
+                      Meet All Customers →
+                    </p>
                   </div>
                 </div>
               </div>
             </section>
             
+               <!--seventh Module complete -->
+
+                  <!--eight Module -->
+          
+                    
+                  <section class="Eigth section container text-center p-5">
+                    <h3 style="transform: scale(1.1); font-weight: bold;">Caring is the new marketing</h3>
+                    <p class="text-muted" style="transform: translateY(10px);">
+                      The Nexcent blog is the best place to read about the latest membership insights, <br>
+                      are increasing their membership income and lots more.
+                    </p>
+                  
+                    <div class="row justify-content-between p-5 card-group g-3">
+                      <div class="col-md-4 col-sm-6">
+                        <div class="card" style="height: 300px; position: relative; border: none; box-shadow: none;">
+                          <img src="card1.png" class="card-img-top" style="filter: brightness(0.8); height: 150px; object-fit: cover;">
+                          <div class="card-body" style="position: absolute; bottom: 10%; left: 50%; transform: translate(-50%, 0); z-index: 10; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 10px;">
+                            <p class="card-text" style="font-weight: bold;">Creating Streamlined Safeguarding Processes with OneRen</p>
+                            <p class="text-success" style="font-weight: bold;">Read More →</p>
+                          </div>
+                        </div>
+                      </div>
+                
+                      <div class="col-md-4 col-sm-6">
+                        <div class="card" style="height: 300px; position: relative; border: none; box-shadow: none;">
+                          <img src="card2.png" class="card-img-top" style="filter: brightness(0.6); height: 150px; object-fit: cover;">
+                          <div class="card-body" style="position: absolute; bottom: 10%; left: 50%; transform: translate(-50%, 0); z-index: 10; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 10px;">
+                            <p class="card-text" style="font-weight: bold;">What are your safeguarding responsibilities and how can you manage them?</p>
+                            <p class="text-success" style="font-weight: bold;">Read More →</p>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      
+                      <div class="col-md-4 col-sm-6">
+                        <div class="card" style="height: 300px; position: relative; border: none; box-shadow: none;">
+                          <img src="card3.png" class="card-img-top" style="filter: brightness(0.8); height: 150px; object-fit: cover;">
+                          <div class="card-body" style="position: absolute; bottom: 10%; left: 50%; transform: translate(-50%, 0); z-index: 10; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 10px;">
+                            <p class="card-text" style="font-weight: bold;">Revamping the Membership Model with Triathlon Australia</p>
+                            <p class="text-success" style="font-weight: bold;">Read More →</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  
+
+                  
+                    
+                    
+                    
+                    <!--eight Module cpmplete -->          
 
             <!--nineth Module -->
 
-            <section class="Get-section bg-light">
-              <div class="container">
-              <div class="get-class text-center p-5">
-                <h1>Pellentesque suscipit</h1>
-                <h1>fringilla libero eu.</h1>
-              <div class="Get section p-3">
-                <button type="button" class="btn btn-success btn-md p-3 ">Get a Demo-></button>
-               </div>
-          </div>
-        </div>
-             </section>
+            <section class="Get-section bg-light ">
+              <div class="container" style="max-width: 800px; font-weight: bold;">
+                <div class="get-class text-center p-5">
+                  <h1 style="font-size: 3rem; letter-spacing: 2px;">Pellentesque suscipit</h1>
+                  <h1 style="font-size: 3rem; letter-spacing: 2px;">fringilla libero</h1>
+                  <div class="Get-section p-3">
+                    <button type="button" class="btn btn-lg" style="background-color: #52b152; color: #fff; padding: 15px 30px; border-radius: 8px; font-size: 1.5rem; border: none;">
+                      Get a Demo →
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
              
              <!--ninth module complete-->
 
+   <!--tenth Module -->
+ 
+   <section class="tenth-section text-center bg-dark p-5">
 
 
+    <div class="container">
+          <div class="row">
+            
+<footer class="text-center text-lg-start text-muted">
+  
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+    
+      <div class="row mt-3">
+      
+        <div class="col-md-3 col-lg-4 text-white col-xl-3 mx-auto mb-4">
+          
+          <p class="fs-3 fw-bold"> <img src="Icon.png" alt="Nexcent Logo" class="me-2"> Nexcent</p>
+          <p class="fs-6 ">
+            Copyright © 2020 Nexcent ltd.
+          </p>
+          <p class="fs-6 ">
+            All rights reserved
+          </p>
+          <div class="col-md-6 P-5">
+            <img src="instgram.png" alt="Nexcent Logo">
+            <img src="twiiter.png" alt="Nexcent Logo">
+            <img src="fotball.png" alt="Nexcent Logo">
+            <img src="you tube.png" alt="Nexcent Logo">
+          </div>
+        </div>
+<div class="col-md-2 col-lg-2 text-white col-xl-2 mx-auto mb-4">
+
+  <h6 class="text-white fs-4 fw-bold mb-4">
+    Company
+  </h6>
+  <p style="opacity: 0.6;">About us</p>
+  <p style="opacity: 0.6;">Blog</p>
+  <p style="opacity: 0.6;">Contact us</p>
+  <p style="opacity: 0.6;">Pricing</p>
+  <p style="opacity: 0.6;">Testimonial</p>
+</div>
+
+       
+
+        
+        <div class="col-md-3 col-lg-2 text-white col-xl-2 mx-auto mb-4">
+        
+          <h6 class="text-white fs-4 fw-bold mb-4">
+            Support
+          </h6>
+          <p style="opacity: 0.6;">
+            <a href="#!" class="text-reset"></a>
+          </p>
+          <p style="opacity: 0.6;">Help center</p>
+          <p style="opacity: 0.6;">Term of Service</p>
+          <p style="opacity: 0.6;">Legal</p>
+          <p style="opacity: 0.6;">Status</p>
+          <p style="opacity: 0.6;">Privacy Policy</p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text fs-4 text-white fw-bold mb-4">Stay up to Date</h6>
+
+          <div style="display: flex; align-items: center; border: 2px solid #ddd; border-radius: 25px; padding: 10px 15px; max-width: 400px; background-color: #5e5757;">
+            <input type="text" class="input-field" placeholder="Your Email Address" 
+            style="border: none; outline: none; flex-grow: 1; padding: 10px; font-size: 16px; background-color: transparent; color: #333;">
+            <img src="send.png" alt="Send" style="width: 24px; height: 15px; cursor: pointer; margin-left: 10px;">
+        </div>
+         
+        </div>
+        
+      </div>
+    
+    </div>
+  </section>
+
+</footer>
+
+    <!--tenth Module complete -->   
+                
+
+    </section>
 </body>
 </html>
