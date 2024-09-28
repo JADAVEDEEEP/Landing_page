@@ -1,13 +1,8 @@
-@media (max-width: 576px) {
-    .navbar-nav {
-      flex-direction: column;
-    }
-  
-    .navbar-nav .nav-item {
-      margin-bottom: 10px;
-    }
-  
-    .btn-success {
-      width: 100%; /* Button takes full width on mobile */
-    }
-  }
+.animated-number {
+  opacity: 0; /* Hidden initially */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+[data-aos].aos-animate .animated-number {
+  opacity: 1; /* Fade in */
+}
